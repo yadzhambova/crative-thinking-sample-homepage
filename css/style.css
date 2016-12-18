@@ -1,0 +1,70 @@
+html, body, div, ul, li, i, header, nav {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    font-size: 18px;
+}
+
+.social-network-icons {
+    width: 100%;
+    margin-top: 32px;
+    list-style-type: none;
+    float: left;
+}
+
+.social-network-icons li {
+    color: #D3D3D3;
+    margin-right: 23px;
+    float: right;
+}
+
+.social-network-icons li:first-of-type {
+    margin-right: 104px;
+}
+
+/*hover*/
+
+.social-network-icons li:first-of-type:hover {
+    color: #006DC0;
+}
+
+.social-network-icons li:nth-of-type(2):hover {
+    color: #BF0016;
+}
+
+.social-network-icons li:nth-of-type(3):hover {
+    color: #BF0016;
+}
+
+.social-network-icons li:nth-of-type(4):hover {
+    color: #006DC0;
+}
+
+.social-network-icons li:nth-of-type(5):hover {
+    color: #006DC0;
+}
+
+/*hover*/
+
+header {
+    width: 100%;
+}
+
+.logo-image {
+    position: relative;
+    top: 51px;
+    bottom: 0px;
+    left: 105px;
+}
+
+.dropdown-menu {
+    list-style-type: none;
+}
+
+i {
+    position: relative;
+    top: 3px;
+}
