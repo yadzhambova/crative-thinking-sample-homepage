@@ -1,4 +1,4 @@
-html, body, div, ul, li, i, header, nav {
+html, body, div, ul, li, i, a, header, nav, p, h2, button{
     margin: 0;
     padding: 0;
 }
@@ -6,11 +6,12 @@ html, body, div, ul, li, i, header, nav {
 body {
     width: 100%;
     font-size: 18px;
+    font-family: 'Lato', sans-serif;
 }
 
 .social-network-icons {
     width: 100%;
-    margin-top: 32px;
+    margin-top: 30px;
     list-style-type: none;
     float: left;
 }
@@ -29,22 +30,27 @@ body {
 
 .social-network-icons li:first-of-type:hover {
     color: #006DC0;
+    cursor: pointer;
 }
 
 .social-network-icons li:nth-of-type(2):hover {
     color: #BF0016;
+    cursor: pointer;
 }
 
 .social-network-icons li:nth-of-type(3):hover {
     color: #BF0016;
+    cursor: pointer;
 }
 
 .social-network-icons li:nth-of-type(4):hover {
     color: #006DC0;
+    cursor: pointer;
 }
 
 .social-network-icons li:nth-of-type(5):hover {
     color: #006DC0;
+    cursor: pointer;
 }
 
 /*hover*/
@@ -55,16 +61,123 @@ header {
 
 .logo-image {
     position: relative;
-    top: 51px;
+    top: 55px;
     bottom: 0px;
+    right: 0;
     left: 105px;
 }
 
-.dropdown-menu {
-    list-style-type: none;
+nav {
+    width: 100%;
 }
 
-i {
+.dropdown-menu {
+    position: absolute;
+    list-style-type: none;
+    float: right;
+    top: 40px;
+    left: 770px;
+    margin-right: 0px;
+    margin-top: 20px;
+}
+
+.dropdown-menu li {
+    float: left;
+    margin-right: 40px;
+}
+
+.dropdown-menu a {
+    text-decoration: none;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.dropdown-menu .home-link {
+    color: #00AEEF;
+}
+
+.sub-menu {
+    list-style-type: none;
+    display: none;
+}
+
+.sub-menu li a {
+    font-size: 12px;
+    color: #D3D3D3;
+    text-transform: none;
+}
+
+.sub-menu li {
+    margin: 0;
+}
+
+.fa-search {
+    color: #00AEEF;
+    font-size: 14px;
+}
+
+.sub-menu-border {
+    border: 1px solid #00AEEF;
+    padding: 15px 0 15px 0;
+    position: absolute;
+    top: 45px;
+    left: -20px;
+}
+
+.sub-menu-border a {
+    color: #D3D3D3;
+    padding: 5px 140px 5px 20px;
+}
+
+.dropdown-menu > li:hover > .sub-menu {
+    display: block;
+}
+
+.basic-info {
+    width: 100%;
+    margin-top: 215px;
+}
+
+.introduction {
+    width: 50%;
+}
+
+.mountain-image {
+    width: 50%;
+    display: inline-block;
     position: relative;
-    top: 3px;
+    top: -265px;
+    left: 630px;
+    right: 0px;
+}
+
+.introduction h2 {
+    color: #797979;
+    font-size: 36px;
+    font-weight: 100;
+    margin-bottom: 25px;
+    margin-left: 89px;
+}
+
+.introduction p {
+    margin: 0 0 10px 89px;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.introduction button {
+    text-transform: uppercase;
+    padding: 15px 25px 15px 25px;
+    border: 1px solid #00AEEF;
+    border-radius: 3px;
+    margin-left: 89px;
+    margin-top: 36px;
+    color: #00AEEF;
+    background: transparent;
+}
+
+.introduction button:hover {
+    border-color: #01707F;
+    cursor: pointer;
 }
