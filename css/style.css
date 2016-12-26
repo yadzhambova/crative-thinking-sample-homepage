@@ -1,4 +1,4 @@
-html, body, div, ul, li, i, a, header, nav, p, h2, button{
+html, body, div, ol, li, i, a, header, nav, p, h2, button{
     margin: 0;
     padding: 0;
 }
@@ -9,175 +9,120 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-.social-network-icons {
-    width: 100%;
-    margin-top: 30px;
-    list-style-type: none;
-    float: left;
+.wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+    /*margin-left: 89px;
+    margin-right: 89px;*/
+    height: 22px;
+    width: 1140px;
 }
 
-.social-network-icons li {
+.social-media {
+    list-style-type: none;
+    text-align: right;
+}
+
+.social-media li {
+    display: inline-block;
+    padding: 0 10px;
+
+}
+
+.social-media li a {
     color: #D3D3D3;
-    margin-right: 23px;
-    float: right;
+    font-size: 18px;
 }
 
-.social-network-icons li:first-of-type {
-    margin-right: 104px;
+.social-networks {
+    margin-top: 32px;
 }
 
-/*hover*/
-
-.social-network-icons li:first-of-type:hover {
-    color: #006DC0;
-    cursor: pointer;
+.social-media .facebook:hover a {
+    color: #428bca;
 }
 
-.social-network-icons li:nth-of-type(2):hover {
-    color: #BF0016;
-    cursor: pointer;
+.social-media .tweeter:hover a {
+    color: #428bca;
 }
 
-.social-network-icons li:nth-of-type(3):hover {
-    color: #BF0016;
-    cursor: pointer;
+.social-media .google:hover a {
+    color: #C03035;
 }
 
-.social-network-icons li:nth-of-type(4):hover {
-    color: #006DC0;
-    cursor: pointer;
+.social-media .dribble:hover a {
+    color: #C03035;
 }
 
-.social-network-icons li:nth-of-type(5):hover {
-    color: #006DC0;
-    cursor: pointer;
+.social-media .linkedin:hover a {
+    color: #0A00D1;
 }
 
-/*hover*/
-
-header {
-    width: 100%;
-}
-
-.logo-image {
-    position: relative;
-    top: 55px;
-    bottom: 0px;
-    right: 0;
-    left: 105px;
-}
-
-nav {
-    width: 100%;
-}
-
-.dropdown-menu {
-    position: absolute;
+.menu-items {
     list-style-type: none;
-    float: right;
-    top: 40px;
-    left: 770px;
-    margin-right: 0px;
-    margin-top: 20px;
+    text-align: right;
 }
 
-.dropdown-menu li {
-    float: left;
-    margin-right: 40px;
-}
-
-.dropdown-menu a {
+.menu-items li a {
     text-decoration: none;
     font-size: 11px;
     text-transform: uppercase;
     color: #000;
 }
 
-.dropdown-menu .home-link {
-    color: #00AEEF;
+.menu-items .home-item a {
+    color: #00aeef;
+}
+
+.menu-items .search-item a {
+    color: #00aeef;
+    font-size: 14px;
+}
+
+.menu-items li {
+    display: inline-block;
+    margin-left: 35px;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.dropdown-menu {
+    position: relative;
+    top: -50px;
+    right: 10px;
 }
 
 .sub-menu {
-    list-style-type: none;
-    display: none;
+    padding: 5px 0;
+    font-size: 13px;
+    display: block;
+    text-transform: capitalize;
+    color: #D3D3D3;
+    position: absolute;
+    width: 242px;
+    padding-right: 0px;
+    left: -20px;
+    top: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.sub-menu li a {
-    font-size: 12px;
-    color: #D3D3D3;
-    text-transform: none;
+.sub-menu {
+    padding: 20px 0 20px 0;
+    margin-left: 0px;
+    border: 1px solid #00AEEF;
+    display: none;
+    text-align: left;
 }
 
 .sub-menu li {
-    margin: 0;
+    padding-bottom: 0px;
 }
 
-.fa-search {
-    color: #00AEEF;
-    font-size: 14px;
-}
-
-.sub-menu-border {
-    border: 1px solid #00AEEF;
-    padding: 15px 0 15px 0;
-    position: absolute;
-    top: 45px;
-    left: -20px;
-}
-
-.sub-menu-border a {
-    color: #D3D3D3;
-    padding: 5px 140px 5px 20px;
-}
-
-.dropdown-menu > li:hover > .sub-menu {
+.home-item:hover .sub-menu {
     display: block;
 }
 
-.basic-info {
-    width: 100%;
-    margin-top: 215px;
-}
 
-.introduction {
-    width: 50%;
-}
 
-.mountain-image {
-    width: 50%;
-    display: inline-block;
-    position: relative;
-    top: -265px;
-    left: 630px;
-    right: 0px;
-}
-
-.introduction h2 {
-    color: #797979;
-    font-size: 36px;
-    font-weight: 100;
-    margin-bottom: 25px;
-    margin-left: 89px;
-}
-
-.introduction p {
-    margin: 0 0 10px 89px;
-    font-size: 14px;
-    line-height: 22px;
-}
-
-.introduction button {
-    text-transform: uppercase;
-    padding: 15px 25px 15px 25px;
-    border: 1px solid #00AEEF;
-    border-radius: 3px;
-    margin-left: 89px;
-    margin-top: 36px;
-    color: #00AEEF;
-    background: transparent;
-}
-
-.introduction button:hover {
-    border-color: #01707F;
-    cursor: pointer;
-}
