@@ -1,4 +1,4 @@
-html, body, div, ol, li, i, a, header, nav, p, h2, button{
+html, body, div, ol, li, i, a, header, nav, p, h1, button, section{
     margin: 0;
     padding: 0;
 }
@@ -13,8 +13,6 @@ body {
     max-width: 1170px;
     margin: 0 auto;
     padding: 0 15px;
-    /*margin-left: 89px;
-    margin-right: 89px;*/
     height: 22px;
     width: 1140px;
 }
@@ -124,5 +122,113 @@ body {
     display: block;
 }
 
+.pages-sub-item li {
+    display: block;
+    font-size: 13px;
+    display: block;
+    text-transform: capitalize;
+    color: #D3D3D3;
+}
 
+.pages-sub-item {
+    border: 1px solid #00AEEF;
+    padding-right: 30px;
+    padding-top: 20px;
+    position: absolute;
+    width: 170px;
+    top: 40px;
+    left: -36px;
+    display: none;
+    text-align: left;
+}
+
+.pages-item:hover .pages-sub-item {
+    display: block;
+}
+
+.blog-sub-item li {
+    display: block;
+    font-size: 13px;
+    display: block;
+    text-transform: capitalize;
+    color: #D3D3D3;
+}
+
+.blog-sub-item {
+    border: 1px solid #00AEEF;
+    padding-right: 30px;
+    padding-top: 20px;
+    position: absolute;
+    width: 191px;
+    text-align: left;
+    top: 40px;
+    left: -35px;
+    display: none;
+}
+
+.blog-item:hover .blog-sub-item {
+    display: block;
+}
+
+.folio-sub-item li {
+    display: block;
+    font-size: 13px;
+    display: block;
+    text-transform: capitalize;
+    color: #D3D3D3;
+}
+
+.folio-sub-item {
+    border: 1px solid #00AEEF;
+    padding-right: 110px;
+    padding-top: 20px;
+    position: absolute;
+    padding-right: 30px;
+    width: 191px;
+    text-align: left;
+    top: 40px;
+    left: -35px;
+    display: none;
+}
+
+.portfolio-item:hover .folio-sub-item {
+    display: block;
+}
+
+.search-item a i {
+    padding-bottom: 30px;
+}
+
+input {
+    padding-left: 10px;
+    height: 40px;
+    font-size: 18px;
+    color: #818285;
+    display: block;
+    border: 1px solid #00aeef;
+    border-radius: 3px;
+    width: 175px;
+    position: absolute;
+    top: 50px;
+    left: -170px;
+    display: none;
+}
+
+.search-item:hover input {
+    display: block;
+}
+
+.topic {
+    margin: 0 auto;
+    max-width: 1170px;
+    height: 450px;
+    /*position: relative;
+    top: 185px;*/
+}
+
+.row {
+    width: 100%;
+    position: relative;
+    top: 275px;
+}
 
