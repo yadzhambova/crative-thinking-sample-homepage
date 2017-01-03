@@ -1,4 +1,4 @@
-html, body, div, ol, li, i, a, header, nav, p, h1, button, section{
+html, body, div, ol, li, i, a, header, nav, p, h2, button, section{
     margin: 0;
     padding: 0;
 }
@@ -144,6 +144,8 @@ body {
 
 .pages-item:hover .pages-sub-item {
     display: block;
+    z-index: 99999;
+    background-color: #fff;
 }
 
 .blog-sub-item li {
@@ -168,6 +170,8 @@ body {
 
 .blog-item:hover .blog-sub-item {
     display: block;
+    z-index: 99999;
+    background-color: #fff;
 }
 
 .folio-sub-item li {
@@ -193,6 +197,8 @@ body {
 
 .portfolio-item:hover .folio-sub-item {
     display: block;
+    z-index: 99999;
+    background-color: #fff;
 }
 
 .search-item a i {
@@ -228,7 +234,46 @@ input {
 
 .row {
     width: 100%;
-    position: relative;
-    top: 275px;
+    margin-top: 295px;
 }
+
+h2 {
+    color: #8B8B8B;
+    font-size: 36px;
+    font-weight: normal;
+    position: relative;
+    bottom: 26px;
+    left: 8px;
+}
+
+.basic-info p {
+    color: #8B8B8B;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.basic-info button {
+    width: 105px;
+    height: 40px;
+    margin-top: 20px;
+    border: 1px solid #00aeef;
+    border-radius: 3px;
+    background: transparent;
+    text-transform: uppercase;
+    color: #00AEEF;
+}
+
+.basic-info button:hover {
+    border-color: #01707f;
+}
+
+.hill-image {
+    display: inline-block;
+    position: absolute;
+    top: 253px;
+    left: 636px;
+    bottom: 141px;
+}
+
 
