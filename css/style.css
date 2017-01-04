@@ -1,12 +1,15 @@
-html, body, div, ol, li, i, a, header, nav, p, h2, button, section{
+html, body, div, ol, li, i, a, header, nav, p, h2, button, section, h3, h4 {
     margin: 0;
     padding: 0;
 }
 
 body {
     width: 100%;
-    font-size: 18px;
     font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000;
 }
 
 .wrapper {
@@ -228,8 +231,7 @@ input {
     margin: 0 auto;
     max-width: 1170px;
     height: 450px;
-    /*position: relative;
-    top: 185px;*/
+    margin-bottom: -150px;
 }
 
 .row {
@@ -242,30 +244,46 @@ h2 {
     font-size: 36px;
     font-weight: normal;
     position: relative;
-    bottom: 26px;
-    left: 8px;
 }
 
 .basic-info p {
     color: #8B8B8B;
     margin-bottom: 10px;
+    margin-top: 35px;
     font-size: 14px;
     line-height: 22px;
+    min-width: 450px;
 }
 
-.basic-info button {
+.sign-btn, .tour-btn {
     width: 105px;
     height: 40px;
     margin-top: 20px;
-    border: 1px solid #00aeef;
+    border: 1px solid #0099ae;
     border-radius: 3px;
     background: transparent;
     text-transform: uppercase;
-    color: #00AEEF;
+    color: #0099ae;
 }
 
-.basic-info button:hover {
+.tour-btn {
+    width: 150px;
+    display: inline-block;
+    margin-left: 245px;
+    margin-top: 10px;
+}
+
+.wrapper h2 {
+    display: inline-block;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.sign-btn:hover, .tour-btn {
     border-color: #01707f;
+    cursor: pointer;
 }
 
 .hill-image {
@@ -275,5 +293,91 @@ h2 {
     left: 636px;
     bottom: 141px;
 }
+
+.responsive {
+    width: 375px;
+    height: 237px;
+    display: inline-block;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 40px;
+    margin-bottom: 22px;
+    font-size: 24px;
+    color: #686868;
+}
+
+.responsive p {
+    font-size: 14px;
+    line-height: 22px;
+    color: #000;
+}
+
+.typography {
+    display: inline-block;
+}
+
+.triangle-template {
+    width: 100%;
+    height: 157px;
+    padding-top: 50px;
+}
+
+.bike-image {
+    display: inline-block;
+    position: absolute;
+    bottom: -89px
+}
+
+
+.text-right-title, .text-left-title {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #686868;
+    font-weight: 300;
+}
+
+.about-text-right > p {
+    margin: 0 0 10px;
+}
+
+.frog-image, .karate-image, .robot-image {
+    display: inline-block;
+}
+
+.about-text-right, .about-text-left {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+.about-text-left {
+    margin-left: 0;
+    text-align: right;
+    margin-right: 40px;
+}
+
+.features-row {
+    margin-bottom: 260px;
+}
+
+.happy-clients-title {
+    color: #404040;
+    font-weight: 300;
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.image-row > .wrapper {
+    text-align: center;
+}
+
+.wheel-image {
+    display: inline-block;
+}
+
 
 
