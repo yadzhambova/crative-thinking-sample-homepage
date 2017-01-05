@@ -1,4 +1,4 @@
-html, body, div, ol, li, i, a, header, nav, p, h2, button, section, h3, h4 {
+html, body, div, ol, li, i, a, header, nav, p, h2, button, section, h3, h4, footer, blockquote {
     margin: 0;
     padding: 0;
 }
@@ -42,22 +42,27 @@ body {
 
 .social-media .facebook:hover a {
     color: #428bca;
+    cursor: pointer;
 }
 
 .social-media .tweeter:hover a {
     color: #428bca;
+    cursor: pointer;
 }
 
 .social-media .google:hover a {
     color: #C03035;
+    cursor: pointer;
 }
 
 .social-media .dribble:hover a {
     color: #C03035;
+    cursor: pointer;
 }
 
 .social-media .linkedin:hover a {
     color: #0A00D1;
+    cursor: pointer;
 }
 
 .menu-items {
@@ -149,6 +154,7 @@ body {
     display: block;
     z-index: 99999;
     background-color: #fff;
+    cursor: pointer;
 }
 
 .blog-sub-item li {
@@ -175,6 +181,7 @@ body {
     display: block;
     z-index: 99999;
     background-color: #fff;
+    cursor: pointer;
 }
 
 .folio-sub-item li {
@@ -202,6 +209,7 @@ body {
     display: block;
     z-index: 99999;
     background-color: #fff;
+    cursor: pointer;
 }
 
 .search-item a i {
@@ -380,4 +388,77 @@ h3 {
 }
 
 
+.client1, .client2, .client3, .client4, .client5, .client6 {
+    display: inline-block;
+    margin-right: 68px;
+    cursor: pointer;
+}
 
+.clients-list{
+    text-align: center;
+}
+
+.client6 {
+    margin-right: 0px;
+}
+
+.clients-logos {
+    margin-top: 350px;
+}
+
+.drops-image {
+    margin-top: 50px;
+    text-align: center;
+}
+
+footer {
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: repeat-x;
+}
+
+.testimonial {
+    display: inline-block;
+    margin-top: 300px;
+    margin-left: 200px;
+    position: relative;
+}
+
+blockquote {
+    font-size: 17px;
+    font-weight: normal;
+}
+
+blockquote:before {
+    position: absolute;
+    left: -15px;
+    top: 43px;
+    content: '"';
+    font-size: 40px;
+    color: #ea2c00;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+blockquote:after {
+    position: absolute;
+    left: 202px;
+    top: 95px;
+    content: '"';
+    font-size: 40px;
+    color: #ea2c00;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.quote {
+    display: inline-block;
+    color: #ea2c00;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.man-image {
+    display: inline-block;
+    position: absolute;
+    right: 240px;
+    bottom: 60px;
+}
