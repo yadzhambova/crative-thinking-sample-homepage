@@ -415,6 +415,7 @@ footer {
     background-position: bottom;
     background-size: contain;
     background-repeat: repeat-x;
+    position: relative;
 }
 
 .testimonial {
@@ -427,12 +428,13 @@ footer {
 blockquote {
     font-size: 17px;
     font-weight: normal;
+    margin-top: 30px;
 }
 
 blockquote:before {
     position: absolute;
-    left: -15px;
-    top: 43px;
+    left: -16px;
+    top: 60px;
     content: '"';
     font-size: 40px;
     color: #ea2c00;
@@ -442,7 +444,7 @@ blockquote:before {
 blockquote:after {
     position: absolute;
     left: 202px;
-    top: 95px;
+    top: 106px;
     content: '"';
     font-size: 40px;
     color: #ea2c00;
@@ -456,9 +458,97 @@ blockquote:after {
     margin-top: 10px;
 }
 
-.man-image {
+.profile1 {
     display: inline-block;
     position: absolute;
-    right: 240px;
-    bottom: 60px;
+    right:  235px;
+    bottom: 180px;
+}
+
+.profile2 {
+    display: inline-block;
+    position: absolute;
+    top: 170px;
+    left: -115px;
+}
+
+.quote2:before {
+    position: absolute;
+    left: -16px;
+    top: 190px;
+    content: '"';
+    font-size: 40px;
+    color: #ea2c00;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.quote2:after {
+    position: absolute;
+    left: 70px;
+    top: 258px;
+    content: '"';
+    font-size: 40px;
+    color: #ea2c00;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.contacts {
+    display: inline-block;
+    position: absolute;
+    top: 300px;
+    left: 500px;
+}
+
+.personal-info {
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.personal-info  a {
+    color: #C03035;
+    text-decoration: none;
+}
+
+.personal-info a:hover {
+    color: #0099ae;
+}
+
+.address {
+    margin-top: 15px;
+}
+
+.message-form {
+    display: inline-block;
+    position: absolute;
+    top: 300px;
+    left: 750px;
+}
+
+.name {
+    border: 1px solid #eaeaea;
+    font-weight: 300;
+    outline: none;
+    box-shadow: none;
+    height: 40px;
+}
+
+.message-form textarea {
+    width: 332px;
+    height: 110px;
+    border-color: #4fcccd;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+}
+
+.company-design {
+    position: absolute;
+    top: 720px;
+    left: 400px;
+    text-align: center;
 }
