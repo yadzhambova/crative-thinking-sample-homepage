@@ -388,7 +388,12 @@ h3 {
 }
 
 
-.client1, .client2, .client3, .client4, .client5, .client6 {
+.first-client-logo, 
+.second-client-logo,
+.third-client-logo,
+.fourth-client-logo,
+.fifth-client-logo,
+.sixth-client-logo {
     display: inline-block;
     margin-right: 68px;
     cursor: pointer;
@@ -398,7 +403,7 @@ h3 {
     text-align: center;
 }
 
-.client6 {
+.sixth-client-logo {
     margin-right: 0px;
 }
 
@@ -608,6 +613,3 @@ blockquote:after {
 .submit-btn:hover {
     opacity: 0.8;
 }
-
-
-
